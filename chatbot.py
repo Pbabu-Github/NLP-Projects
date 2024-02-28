@@ -11,7 +11,7 @@ class ChatBot:
             r"(?i)\bhow(?:'s| is)?(?:\s+(?:it\s+going|are\s+(?:you|things)|you\s+doing|is\severything))?\b":'I am hungry as a Horse, Why dont we cook something!',
             r"\b(sure|ok|yes)\b": 'Alright then, let\'s get cooking.',
             r"\b(?:.*(?:think|like|love).*?(?:pizza|spaghetti|ravioli|pasta|sandwich).*)\b": 'This isn’t a food!! this is a mistake. This is an Italian tragedy!',
-            r"\b(\d+)\s*(?:\w+\s+)*eggs\b": 'If you put {} eggs, then all the chickens from chicken run are going to think you are Miss Tweedy.',
+            r"\b([0-9]+)\s*(?:\w+\s+)*eggs\b": 'If you put {} eggs, then all the chickens from chicken run are going to think you are Miss Tweedy.',
             r"(?i)\b(?:what\s+can\s+I\s+cook\s+for\s+you|what\s+should\s+I\s+prepare\s+for\s+you|what\s+do\s+you\s+want\s+to\s+eat)\b":'Why dont you cook me some Italian food!',
             r"(?i)\blove\s+your\b":'I’d like to think I’m a great teacher,and definitely am a great cook. Just keep practicing, and one day you might be like me.',
             r"(?i)\b(bye|see\s+(you|ya)(\s+later)?|talk\s+to\s+(you|ya)(\s+later)?)\b": 'Alright bud, talk to you later. It was fun roasting you and cooking with you.'
